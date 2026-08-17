@@ -1,0 +1,102 @@
+{
+  "appName": "SmartFarmMobile",
+  "version": "1.0",
+  "exportedAt": "2026-08-14T23:55:00.000Z",
+  "data": {
+    "cattleList": [
+      {
+        "id": "c_1",
+        "tagNumber": "C-024",
+        "name": "Gauri",
+        "breed": "Gir",
+        "age": "4 years",
+        "sex": "Female",
+        "healthStatus": "Healthy",
+        "lastCheckedDate": "14 Aug 2026",
+        "todayMilkLiters": 8.5,
+        "morningMilkLiters": 5.1,
+        "eveningMilkLiters": 3.4,
+        "nextVaccinationDue": "15 Sep 2026",
+        "image": "https://images.unsplash.com/photo-1546445317-29f4545f9d52?w=400&auto=format&fit=crop&q=60",
+        "healthHistory": [
+          {
+            "id": "hh_101",
+            "date": "14 Aug 2026",
+            "result": "Healthy",
+            "answers": {
+              "feedType": "Green Fodder + Concentrate",
+              "season": "Monsoon / Rainy",
+              "intake": "Normal",
+              "rumination": "Normal (>30 mins/hr)"
+            },
+            "recommendation": "Everything looks normal. Maintain current feed schedule."
+          }
+        ],
+        "vaccinations": [
+          { "id": "v1", "name": "FMD Vaccine", "date": "10 Jan 2026" },
+          { "id": "v2", "name": "HS-BQ Vaccine", "date": "05 Jun 2026" }
+        ],
+        "latestObservation": {
+          "eating": "Normal Appetite",
+          "activity": "Active & Alert",
+          "recordedAt": "Today 08:30 AM"
+        }
+      }
+    ],
+    "feedInventory": [
+      {
+        "id": "f_1",
+        "name": "Green Fodder (Napier Grass)",
+        "type": "Fodder",
+        "currentStockKg": 280,
+        "dailyConsumptionKg": 25,
+        "status": "Good",
+        "statusColor": "#10b981",
+        "logs": [
+          { "id": "l1", "date": "12 Aug", "change": "+ 150 kg", "note": "Harvested from Field B" }
+        ]
+      },
+      {
+        "id": "f_2",
+        "name": "Dry Straw (Wheat Bushels)",
+        "type": "Roughage",
+        "currentStockKg": 110,
+        "dailyConsumptionKg": 15,
+        "status": "Good",
+        "statusColor": "#10b981",
+        "logs": [
+          { "id": "l2", "date": "10 Aug", "change": "+ 100 kg", "note": "Agromart Delivery (₹ 1,200)" }
+        ]
+      },
+      {
+        "id": "f_3",
+        "name": "Cattle Concentrate Pellets",
+        "type": "Concentrate",
+        "currentStockKg": 35,
+        "dailyConsumptionKg": 8,
+        "status": "Restock soon",
+        "statusColor": "#ef4444",
+        "logs": [
+          { "id": "l3", "date": "05 Aug", "change": "+ 50 kg", "note": "Local Mill Purchase (₹ 1,800)" }
+        ]
+      }
+    ],
+    "milkHistory": [
+      { "date": "12 Aug", "day": "Tue", "totalLiters": 8.2, "morning": 5.0, "evening": 3.2, "topCow": "Gauri - 8.2L" },
+      { "date": "13 Aug", "day": "Wed", "totalLiters": 8.4, "morning": 5.0, "evening": 3.4, "topCow": "Gauri - 8.4L" },
+      { "date": "14 Aug", "day": "Today", "totalLiters": 8.5, "morning": 5.1, "evening": 3.4, "topCow": "Gauri - 8.5L" }
+    ],
+    "feedTransactions": [
+      {
+        "id": "t_101",
+        "date": "12 Aug",
+        "feedName": "Green Fodder (Napier Grass)",
+        "type": "Stock Added",
+        "qty": "+ 150 kg",
+        "remaining": "280 kg",
+        "note": "Farm Harvest Field B",
+        "cost": "₹ 0"
+      }
+    ]
+  }
+}
